@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Physics
 %define	pnam	Springs-Friction
 Summary:	Physics::Springs::Friction - Simulate Dynamics with Springs and Friction
